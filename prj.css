@@ -1,0 +1,401 @@
+        html{
+    scroll-behavior: smooth;
+}
+#navbar img {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: bisque;
+    width: 100%;
+}
+header{
+    height: 100vh;
+    background: url("Pink\ Perfume\ Bottle\ with\ Blossoms_\ A\ luxurious\ pink\ perfume\ bottle\ rests\ amidst\ falling\ pink\ petals.jpeg") center  center/cover no-repeat;
+}
+ #cont{
+            width: 100px;
+            height: 70px;
+            
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            gap: 3px;
+        }
+        #cont div a {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            width: 200px;
+            color: black;
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            font-size: xx-large;
+        }
+        
+        #cont div a  i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #351742;
+  
+            position: relative;
+            width: 20px;
+            height: 20px;
+            z-index: 1;
+            background-color: rgb(154, 25, 25);
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 25px;
+        }
+ul{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: rgb(14, 14, 15);
+}
+#navbar ul {
+    display: flex;
+    margin-right: 100px ;
+    align-items: center;
+}
+#navbar ul li a i {
+    padding: 15px 20px;
+    color: rgb(26, 30, 30);
+    font-weight: 600;
+}
+#navbar ul li a i:hover{ border-bottom: 2px solid yellow;
+
+}
+header .cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 75%;
+    font-size: xx-large;
+}
+header .cont h1{
+    font-weight: 40;
+}
+header .cont p{
+    margin: 20px 0 40px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.btn-primary{
+    border: solid 1px white;
+    color: rgb(19, 18, 18);
+    background-color: blanchedalmond;
+}
+.bnt-secondery{
+    color: white;
+    background-color: black;
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+
+}
+.btn-primary:hover,
+.bnt-secondery:hover{
+    background-color: blueviolet;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+#about h2,
+#offers h2 ,
+#menu h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40;
+    color: black;
+
+}
+#about .title ,
+#offers .title,
+#menu .title{
+     align-items: center;
+ text-align: center  ;
+     margin-bottom: 4rem;
+
+}
+ #about .about-content{
+display: flex;
+
+justify-content: space-between;
+
+}
+#about .about-content img {
+    width: 450px;
+}
+#about .about-content p{
+    color: rgb(51, 20, 20);
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+#offers{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url("rosita\ rosita\ 🩷⋆𐙚₊˚⊹♡.jpeg") center center/cover;
+}
+#offers .offersitems{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#offers .offersitems img{
+    border-radius: 50%;
+}
+#offers .offersitems h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+#offers .offersitems p{
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+#offers .offersitems span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+#menu{
+    background-color: aliceblue;
+    padding: 5rem 0;
+}
+#menu .menuitems{
+ display: flex;
+ justify-content: center;
+}
+#menu .menuitems .menuitem{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px;
+}
+#menu .menuitems .menuitem img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#menu .menuitems .menuitem h3 {color: black;
+    border-bottom: 1px dashed black;
+    padding: 10px;position: relative;
+
+}
+#menu .menuitems .menuitem span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#menu .menuitems .menuitem  p{
+    margin-top: 10px;
+}
+#menu .bnt{
+    background-color: blueviolet;
+   align-items: center;
+  display: flex;
+    margin: 20px auto 0;
+    color: white;
+    background-color: black;
+    margin-top: 2rem;
+   
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+#contact{
+    padding: 5rem 0;
+    background-color: aliceblue;
+}
+#contact .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact .contact-content .contactinfo{
+    width: 50%;
+}
+#contact .contact-content .contactinfo div{
+    margin: 30px 0;
+    line-height: 1.7;
+}
+#contact .contact-content .contactinfo h3{
+    font-size: 28px;
+    color: gray;
+    margin-bottom: 10px;
+}
+#contact .contact-content .contactinfo p{
+    color: grey;
+}
+#contact .contact-content .contactinfo i{
+    color: #d87093;
+    margin-right: 5px;
+}
+#contact .contact-content .contactinfo a i {
+    background-color: brown;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+#contact .contact-content .contactinfo a i :hover{
+    background-color: black;
+}
+form{
+    width: 50%;
+
+}
+form .lfrm {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+
+}
+button{
+    background-color: blueviolet;
+   align-items: center;
+  display: flex;
+    margin: 20px auto 0;
+    color: white;
+    background-color: black;
+    margin-top: 2rem;
+   
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    padding: 15px 0;
+} 
+
+/* ==== Animations ==== */
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* Slide-in for navbar */
+@keyframes slideIn {
+  from {transform: translateY(-100%);}
+  to {transform: translateY(0);}
+}
+
+/* Zoom effect for images */
+@keyframes zoomIn {
+  from {transform: scale(0.8);}
+  to {transform: scale(1);}
+}
+
+/* Social icons hover bounce */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Apply animations */
+#navbar {
+  animation: slideIn 1s ease forwards;
+}
+
+header .cont,
+#about .container,
+#offers .container,
+#menu .container,
+#contact .container {
+  animation: fadeIn 1s ease-in-out both;
+}
+
+#offers .offersitems img,
+#menu .menuitem img {
+  transition: transform 0.3s ease;
+}
+#offers .offersitems img:hover,
+#menu .menuitem img:hover {
+  transform: scale(1.1);
+}
+
+/* Button hover pulse effect */
+.btn:hover,
+.bnt:hover,
+button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Form input focus */
+form input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(137, 43, 226, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Social icon hover */
+#contact .contactinfo a i:hover {
+  animation: bounce 0.5s;
+}
+
+  label {
+      font-size: 20px;
+      font-weight: 600;
+      color: #333;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    select {
+      width: 250px;
+      padding: 10px 15px;
+      font-size: 16px;
+      border: 2px solid #aaa;
+      border-radius: 12px;
+      background-color: #fff;
+      color: #333;
+      outline: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    select:hover {
+      border-color: #ff6b81;
+      box-shadow: 0 0 10px rgba(255, 107, 129, 0.4);
+    }
